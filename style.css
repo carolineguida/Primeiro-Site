@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300;700&display=swap');
+
+* {margin: 0 ; padding: 0;}
+
+body {
+    background-color: #F0F0F0;
+}
+
+header, img {
+    width: 100%;
+    height: 520px;
+}
+
+nav {
+    background-color: #3F51B5;
+    padding: 20px;
+    text-align: center;
+}
+
+a  {
+    font-family:1.5rem, 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu, .menu:visited{
+    color: #fff;
+    margin-right: 60px;
+}
+
+.menu:hover, .menu:active{
+    color: pink;
+}
+
+main {
+    padding: 60px;
+}
+
+h1 {
+    color: #3F51B5;
+    text-align: center;
+    font-family:'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #777777;
+    text-align: justify;
+    font-family:1.5rem, 'Poppins', sans-serif;
+    font-weight: 100;
+    line-height: 2.5rem;
+}
+
+h2 {
+    color: #3F51B5;
+    font-size: 2.5rem;
+    font-family:'Kaushan Script', cursive;
+    margin-bottom: 20px;
+}
+
+#secao-abordagens {
+    background-color: #3F51B5;
+    padding: 60px;
+}
+
+
+#secao-abordagens h2, #secao-abordagens p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#secao-table {
+    background-color: #CCC;
+    padding: 60px;
+}
+
+.texto-card {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+h3 {
+    color: #3F51B5;
+    text-align: center;
+    font-family:'Kaushan Script', cursive;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCC;
+    transition: 0.1s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px #CCC;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content p {
+    font:1rem, 'Poppins', sans-serif;
+    line-height: 20px;
+    
+}
+
+.card-content h3 {
+    font: 2rem, 'Poppins', sans-serif;
+    color: #00BCD4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#secao-atendimentos {
+    padding: 60px;
+
+}
+
+.img-contatos{
+    width: 30px;
+    height: 30px;
+}
+
+#secao-atendimentos{
+
+}
+
+#secao-atendimentos p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container-atendimentos {
+    display: flex;
+}
+
+.img-contatos{
+    width: 30px;
+    height: 30px;
+}
+
+.coluna-atendimentos{
+    padding: 40px;
+}
+
+.container-imagens{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-imagens p {
+    color: #000;
+}
+
+footer {
+    background-color: #212121;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+
+}
+
+
+footer a {
+    color: #FFF;
+}
+
+/*pagina de agendamentos*/
+
+#pag-agendamentos{
+
+}
+
+#pag-agendamentos p{
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+input, select, textarea {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #C4C4C4;
+    color: #777;
+}
+
+label, fieldset, input, select, textarea {
+    font: 2rem, 'Poppins', sans-serif;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#data-hora-num {
+    display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+
+textarea {
+    height: 80px;
+}
+
+#botoes-form {
+    display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    background-color: #88C34A;
+    border: 0;
+    border-radius: 5px;
+}
+
+input[type="reset"] {
+    background-color: #F47E7E;
+}
